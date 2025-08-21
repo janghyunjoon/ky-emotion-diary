@@ -1,6 +1,6 @@
 
 import './App.css'
-import { useReducer, useRef, createContext, useContext, useEffect } from 'react'
+import { useReducer, useRef, createContext,  useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Diary from './pages/Diary'
 import Edit from './pages/Edit'
@@ -19,13 +19,13 @@ const mockData = [
   },
   {
     id: 2,
-    createdDate: new Date("2025-07-05").getTime(),
+    createdDate: new Date("2025-08-05").getTime(),
     emotionId: 2,
     content: "2번 일기 내용"
   },
   {
     id: 3,
-    createdDate: new Date("2024-12-05").getTime(),
+    createdDate: new Date("2025-08-01").getTime(),
     emotionId: 4,
     content: "3번 일기 내용"
   }
